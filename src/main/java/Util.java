@@ -48,28 +48,7 @@ public class Util {
         return str;
     }
 
-    /*
-   * Написать алгоритм RemoveAlla.
-   С помощью методов из видео1,  написать алгоритм, который принимает на вход строку.
-   * Если строка валидная, то метод удаляет все буквы a из строки, если таковые имеются.
-   * Метод возвращает обработанную строку.
-   Test Data:
-    “    QA4Everyone   “ →  “QA4Everyone“
-   “panda   “ → “pnd”
-   */
-    public static String removeAlla(String str) {
-        if (str.isEmpty()) {
-            return "Srting is emptpy";
-        } else {
-            String s = "";
-            for (int i = 0; i < str.length(); i++) {
-                if (str.charAt(i) == 97) {
-                    s = str.replace("a", "");
-                }
-            }
-            return s;
-        }
-    }
+
 
     /*Написать алгоритм RemoveAllZeros.
     С помощью методов из видео1,  написать алгоритм, который принимает на вход строку, состоящую из цифр.

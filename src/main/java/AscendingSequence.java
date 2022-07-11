@@ -10,9 +10,6 @@ public class AscendingSequence {
                 System.out.println(arr[i]);
             }
             return arr;
-
         } else return new int[]{};
     }
-
-
 }

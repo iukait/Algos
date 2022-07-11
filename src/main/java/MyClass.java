@@ -2,7 +2,6 @@ import java.util.Random;
 
 public class MyClass {
 
-
     public static void main(String[] args) {
         String[] catsNames = {"Черныш", "Мурка", "Мурзик", "Рыжик"};
         // printArray(catsNames);

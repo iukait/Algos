@@ -9,7 +9,8 @@ public class StringTask{
 
     * */
     public static void main(String[] args) {
-        String str1 = Util.deleteSpace("");
+        String str1 = Util.deleteSpace("      ");
+        System.out.println(str1.length());
         String str = Util.removeAlla("maaaama");
         System.out.println(Util.RemoveAllZeros(" 202 90 "));
         System.out.println(Util.getAmoutLetterA("sdfds"));

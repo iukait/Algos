@@ -40,7 +40,7 @@ public class Util {
             System.out.println("Строка пустая");
             return str;
         } else if (str.charAt(0) + 1 == 33 && str.charAt(str.length() - 1) + 1 == 33) {
-            System.out.println("“Лишние пробелы удалены”. ");
+            System.out.println("“Лишние пробелы удалены”.");
             return str.trim();
         } else {
             System.out.println("Пробелов не было");

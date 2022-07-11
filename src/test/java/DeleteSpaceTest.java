@@ -27,7 +27,7 @@ public class DeleteSpaceTest {
     @Test
     @Order(3)
     public void testStringwithSpace() {
-        String spaceString = "  Elica  ";
+        String spaceString = "  El   ica  ";
 
         DeleteSpace deleteSpace = new DeleteSpace();
         String actualResult=deleteSpace.deleteSpace(spaceString);

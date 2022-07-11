@@ -12,7 +12,7 @@ public class StringTask{
         String str1 = Util.deleteSpace("      ");
         System.out.println(str1.length());
 
-        System.out.println(Util.RemoveAllZeros(" 202 90 "));
+        System.out.println(Util.removeAllZeros(" 202 90 "));
         System.out.println(Util.getAmoutLetterA("sdfds"));
         String text = "As a decrepit father takes delight\\n\" +\n" +
                 "                \"To see his active child do deeds of youth,\\n\" +\n" +

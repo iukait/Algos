@@ -59,7 +59,7 @@ public class Util {
     “ 0000000111“ → “111”
 
     * */
-    public static String RemoveAllZeros(String numbers) {
+    public static String removeAllZeros(String numbers) {
         String str = "";
         String str1 = "";
         if (!numbers.isEmpty()) {

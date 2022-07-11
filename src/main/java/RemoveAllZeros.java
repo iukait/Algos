@@ -6,10 +6,11 @@ public class RemoveAllZeros {
     “ 0000000111“ → “111”
     * */
     public static void main(String[] args) {
-        System.out.println(removeAllZeros(   " 0000000111"));
+        System.out.println(removeAllZeros(" 0000000111"));
     }
-    public static String removeAllZeros(String str){
-                String result=str.trim().replace("0","");
-        return result.replace(" ","");
+
+    public static String removeAllZeros(String str) {
+        return str.trim().replace("0", "").replace(" ", "");
+
     }
 }

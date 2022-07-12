@@ -1,18 +1,11 @@
 import java.util.Arrays;
 
 public class StringTask{
-    /* Написать метод, который принимает на вход строку.
-Если строка не пустая  то примените метод по удалению пробелов в начале строки и в конце строки.
-    *Если пробелы были, то метод должен вернуть сообщение: “Лишние пробелы удалены”.
-Если пробелов не было, вернуть сообщение “Пробелов не было”.
-Если строка пустая, вернуть сообщение “Строка пустая”.
 
-    * */
     public static void main(String[] args) {
-        String str1 = Util.deleteSpace("      ");
-        System.out.println(str1.length());
+       // String str1 = Util.deleteSpace("      ");
+       // System.out.println(str1.length());
 
-        System.out.println(Util.removeAllZeros(" 202 90 "));
         String text = "As a decrepit father takes delight\\n\" +\n" +
                 "                \"To see his active child do deeds of youth,\\n\" +\n" +
                 "                \"So I, made lame by fortune’s dearest spite,\\n\" +\n" +
@@ -20,12 +13,9 @@ public class StringTask{
                 "                \"For whether beauty, birth, or wealth, or wit, \"";
         String[] wordsArr = text.split(",");
 
-      //  System.out.println(Arrays.toString(wordsArr));
-
-        System.out.println(Util.isStringPrezent("As of March 2022,  18 "));
-        System.out.println(Util.addQuotes("Too"));
+      //  System.out.println(Util.addQuotes("Too"));
        // System.out.println(Util.correctWord("ЧикаГО"));
-        Util.capitalizeWords("capital london");
+      //  Util.capitalizeWords("capital london");
         OddEven qd=new OddEven();
         qd.findOddEven(2147483647+1);
         ConvertStringToArray.stringToArrayChar("Name");
@@ -59,8 +49,8 @@ public class StringTask{
         System.out.println(b.isEmpty());
         System.out.println(b.length());
 //        System.out.println(Util.capitalizeWords("ergergRER"));
-        System.out.println(Util.capitalizeWords(""));
-        System.out.println(Util.capitalizeAllWords("ташкент  я люблю тебя"));
+      //  System.out.println(Util.capitalizeWords(""));
+      //  System.out.println(Util.capitalizeAllWords("ташкент  я люблю тебя"));
     }
 }
 
